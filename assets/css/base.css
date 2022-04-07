@@ -1,11 +1,11 @@
-:root {
+:root { /*tạo biến */
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
 
 }
 * {
-    box-sizing: inherit;
+    box-sizing: inherit; /*inherit là kế thừa thuộc tính của thẻ cha*/
 
 }
 html {
