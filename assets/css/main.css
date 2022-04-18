@@ -138,6 +138,8 @@
 
 .header__notify-link {
     display: flex;
+    padding: 12px;
+    text-decoration: none;
 } 
 
 .header__notify-img {
@@ -146,14 +148,20 @@
 }
 
 .header__notify-info {
-
+    margin-left: 12px;
 }
 
 .header__notify-name {
-
+    display: block;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-weight: 100;
 }
 
 .header__notify-description {
-
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #756F6E;
 }
 
