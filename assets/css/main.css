@@ -133,13 +133,19 @@
 }
 
 .header__notify-item {
+    display: flex;
+}
+.header__notify-item--viewed {
+    background-color: rgba(238, 75, 43, 0.08);
 
-} 
+}
 
 .header__notify-link {
     display: flex;
+    width: 100%;
     padding: 12px;
     text-decoration: none;
+    background-color: rgba(238, 75, 43, 0.08);
 } 
 
 .header__notify-img {
