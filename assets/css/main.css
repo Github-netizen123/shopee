@@ -21,7 +21,7 @@
     display: block;
 
 }
-.header__navbar-item--has-notify:hover .header__notify {
+.header__navbar-item--has-notify:hover .header__notify { /*dòng này phụ trợ cho .header__notify*/
     display: block;
 }
 .header__navbar-item,
@@ -120,6 +120,25 @@
     transform-origin: calc(100%-20px) top right; /*hiệu ứng sẽ xuất hiện từ góc bên phải qua*/
     animation: headerNotifyGrowth ease-in 0.2s;
     display: none;
+}
+.header__notify::before { /*làm mũi tên chỗ thông báo*/
+    content: "";
+    border-width: 20px 27px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 4px;
+    top: -29px;
+}
+.header__notify::after { /*làm cầu nối giữa navbar và notify*/
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 90px;
+    height: 20px;
+    
 }
 @keyframes headerNotifyGrowth {
     from {
