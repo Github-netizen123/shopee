@@ -31,7 +31,7 @@ p {
     flex-wrap: wrap;
 }
 /* Animation */
-@keyframes fadeIn{
+@keyframes fadeIn{ /*hiệu ứng ẩn hiện khi di chuột vào*/
     from {
         opacity: 0;
     }
