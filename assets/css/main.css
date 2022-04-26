@@ -227,3 +227,13 @@
     font-weight: 400;
     text-align: center;  
 }
+
+/* Authen modal */
+
+.auth-form__container {
+    padding: 0 32px;
+    
+}
+.auth-form__header {
+    display: flex; /*để 2 thắng đang ký đáng nhập lên chiều ngang*/
+}
