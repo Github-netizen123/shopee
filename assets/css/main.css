@@ -229,11 +229,35 @@
 }
 
 /* Authen modal */
-
+.auth-form {
+    width: 500px;
+}
 .auth-form__container {
     padding: 0 32px;
     
 }
 .auth-form__header {
     display: flex; /*để 2 thắng đang ký đáng nhập lên chiều ngang*/
+    align-items: center; /*để các item nằm trên 1 hàng*/
+    justify-content: space-between;   
+}
+.auth-form__heading {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.auth-form__switch-btn {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.auth-form__form {
+    margin-top: 16px;
+}
+
+.auth-form__input {
+    width: 100%;
+    height: 40px;
 }

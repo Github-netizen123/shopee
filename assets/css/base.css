@@ -16,7 +16,7 @@ p {
     font-size: 1rem;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif; /*sans-serif là chủng font chữ k có gạch chân */
-    box-sizing: border-box;
+    box-sizing: border-box; /*tổng của padding margin, content sẽ được tự tính toán để k vượt quá width vs height đã set từ trước*/
 }
 .grid {
     width: 1200px;
@@ -40,7 +40,7 @@ p {
     }
 }
 .modal {
-    position: fixed;
+    position: fixed; /*tự thay đổi theo kích thước trình duyệt*/
     top: 0;
     right: 0;
     bottom: 0;
