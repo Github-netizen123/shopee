@@ -229,6 +229,9 @@
 }
 
 /* Authen modal */
+.modal__body {
+    background-color: var(--white-color);
+}
 .auth-form {
     width: 500px;
 }
@@ -287,5 +290,18 @@
 }
 
 .auth-form__controls {
+    display: flex;
+    justify-content: flex-end;
     margin-top: 80px;
+}
+
+.auth-form__controls-back {
+    margin-right: 8px;
+}
+
+.auth-form__socials {
+    background-color: #F5F5F5;
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between;
 }
