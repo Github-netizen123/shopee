@@ -75,10 +75,18 @@ p {
     outline: none;
     cursor: pointer;
     color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn:hover {
+.btn.btn--normal:hover {
     background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--size-s {
+    height: 32px;
+    font-size: 12px;
 }
 
 
