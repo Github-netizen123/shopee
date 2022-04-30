@@ -229,11 +229,11 @@
 }
 
 /* Authen modal */
-.modal__body {
-    background-color: var(--white-color);
-}
 .auth-form {
     width: 500px;
+    border-radius: 5px;
+    overflow: hidden; /*thằng social đè lên thằng cha vượt ra ngoài thẻ cha. ép socials nằm trong thẻ cha*/
+    background-color: var(--white-color);
 }
 .auth-form__container {
     padding: 0 32px;
@@ -301,9 +301,10 @@
 
 .auth-form__socials {
     background-color: #F5F5F5;
-    padding: 12px 36px;
+    padding: 16px 36px;
     display: flex;
     justify-content: space-between;
+    margin-top: 22px;
 }
 
 .auth-form__socials-icon {
@@ -318,4 +319,13 @@
 .auth-form__socials--facebook,
 .auth-form__socials-icon {
     color: var(--white-color)
+}
+
+.auth-form__socials-title {
+    margin: 0 36px;
+}
+
+.auth-form__socials--google {
+    color: #666;
+    background-color: var(--white-color);
 }
