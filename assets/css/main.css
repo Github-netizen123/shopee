@@ -243,6 +243,8 @@
     display: flex; /*để 2 thắng đang ký đáng nhập lên chiều ngang*/
     align-items: center; /*để các item nằm trên 1 hàng*/
     justify-content: space-between;   
+    padding: 0 12px;
+    margin-top: 10px;
 }
 .auth-form__heading {
     font-size: 2.2rem;
