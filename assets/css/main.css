@@ -331,3 +331,19 @@
     color: #666;
     background-color: var(--white-color);
 }
+
+.auth-form__help {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.auth-form__help-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.auth-form__help-separate {
+    display: block;
+    height: 24px;
+    border-left: 1px solid var(--border-color);
+}
