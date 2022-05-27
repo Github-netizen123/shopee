@@ -414,6 +414,7 @@
     box-shadow: 0 1px 3.125rem 0 rgba(0, 0, 0, 0.2);
     animation: fadeIn ease-in 0.2s;
     cursor: default;
+    display: none;
 }
 
 /*  */
@@ -432,6 +433,7 @@
 
 .header__cart-item {
     display: flex;
+    align-items: center;
 }
 
 .header__cart-item:hover {
@@ -441,6 +443,7 @@
     width: 42px;
     height: 42px;
     margin: 12px;
+    border: 1px solid #E8E8E8;
 }
 .header__cart-item-info {
     width: 100%;
@@ -493,7 +496,15 @@
 .header__cart-item-remove:hover {
     cursor: pointer;
     color: var(--primary-color);   
+}
 
+.header__cart-view-cart {
+    float: right;
+    margin: 0 12px 12px 0;
+}
+
+.header__cart-view-cart:hover {
+    background-color: #F05D41;
 }
 .header__cart-list::after {
     cursor: pointer;
