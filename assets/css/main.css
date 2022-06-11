@@ -38,7 +38,7 @@
 }
 
 .header__navbar-user-name {
-    margin-left: 8px;
+    margin-left: 4px;
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -81,6 +81,9 @@
 
 }
 
+.header__navbar-user-item--separate {
+    border-top: 1px solid rgba(0, 0, 0, 0.05)
+}
 .header__navbar-user-item a {
     text-decoration: none;
     color: var(--text-color);
@@ -201,13 +204,16 @@
 
 /* Header notification  */
 .header__notify {
-    position: absolute;   
+    position: absolute; 
+    z-index: 1;  
     top: 118%;
+    right: 0;
     width: 404px;
-    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--white-color);
     cursor: default;
-    transform-origin: calc(100%-20px) top right; /*hiệu ứng sẽ xuất hiện từ góc bên phải qua*/
+    transform-origin: calc(100% - 32px) top ; /*hiệu ứng sẽ xuất hiện từ góc bên phải qua*/
     animation: headerNotifyGrowth ease-in 0.2s;
     will-change: opacity, transform; /*để tối ưu khi trình duyệt chạy 2 hiệu ứng này*/
     display: none;
@@ -455,6 +461,11 @@
 
 .header__logo {
     width: 200px;
+}
+
+.header__logo-link {
+    color: transparent;
+    text-decoration: none;
 }
 
 .header__logo-img {
@@ -711,7 +722,7 @@
 .header__search-option {
     position: absolute;
     right: 0;
-    top: 100%;
+    top: calc(100% - 1px);
     width: 160px;
     list-style: none;
     box-shadow: 0 1px 2px #e0e0e0;
@@ -825,4 +836,10 @@
     line-height: 38px;
     color: var(--text-color);
     display: block;
+}
+
+
+/* App container */
+.app__container {
+    
 }

@@ -21,6 +21,8 @@ p {
     font-family: 'Roboto', sans-serif; /*sans-serif là chủng font chữ k có gạch chân */
     box-sizing: border-box; /*tổng của padding margin, content sẽ được tự tính toán để k vượt quá width vs height đã set từ trước*/
 }
+
+/* Responsive */
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -32,6 +34,21 @@ p {
 .grid__row {
     display: flex;
     flex-wrap: wrap; /*để item tự nhảy xuống dòng*/
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/* Test */
+.grid__column-2 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__column-10 {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 83.3334%;
 }
 /* Animation */
 @keyframes fadeIn{ /*hiệu ứng ẩn hiện khi di chuột vào*/
