@@ -983,6 +983,7 @@
 
 /* Product Item */
 .home-product-item {
+    margin-top: 10px;
     background-color: var(--white-color);
 }
 
@@ -992,10 +993,20 @@
     background-size: contain; /*khi anh? to qua se k bi cat mat 1 goc
                                 background-position: center de soi vao trong tam cua anh?
                                 background-size: cover de khi anh? dai` qua/ khong hien thi het*/
-
+    background-position: center;
 }
 .home-product-item__name {
-
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+    height: 3.6; /*vi line-height: 1.8rem nen muon 2 dong chu set height: 3.6rem, 3 dong thi height: 4.4rem*/
+    margin: 10px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box; /*co dong nay moi chay duoc 2 dong -webkit-box-origent va line-cam*/
+    -webkit-box-orient: vertical; /*-2 dong -webkit-box va -webkit-line de tao hieu ung xem them giong comment tren fb*/
+    -webkit-line-clamp: 2;
 }
 .home-product-item__price {
 
