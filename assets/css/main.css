@@ -1007,6 +1007,9 @@
     display: -webkit-box; /*co dong nay moi chay duoc 2 dong -webkit-box-origent va line-cam*/
     -webkit-box-orient: vertical; /*-2 dong -webkit-box va -webkit-line de tao hieu ung xem them giong comment tren fb*/
     -webkit-line-clamp: 2;
+    /* text-overflow: ellipsis;  eleipsis là dấu 3 chấm dòng này đi chung vs dòng white-space để tạo dấu 3 chấm (xem thêm) trên 1 dòng đầu
+    white-space: nowrap; */
+    
 }
 .home-product-item__price {
 
