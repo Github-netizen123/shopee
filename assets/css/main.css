@@ -1001,7 +1001,7 @@
     color: var(--text-color);
     line-height: 1.8rem;
     height: 3.6; /*vi line-height: 1.8rem nen muon 2 dong chu set height: 3.6rem, 3 dong thi height: 4.4rem*/
-    margin: 10px;
+    margin: 10px 10px 6px;
     overflow: hidden;
     display: block;
     display: -webkit-box; /*co dong nay moi chay duoc 2 dong -webkit-box-origent va line-cam*/
@@ -1012,19 +1012,32 @@
     
 }
 .home-product-item__price {
-
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap; /*de tranh khi chu dai qua bi choc ra ngoai*/
 }
 .home-product-item__price-old {
-
+    margin-left: 10px;
+    font-size: 1.4rem;
+    color: #666;
+    text-decoration: line-through;
 }
 .home-product-item__price-current {
-
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-left: 10px;
 }
 .home-product-item__action {
-
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 10px 0px;
 }
 .home-product-item__like {
+    font-size: 1.4rem;
+}
 
+i.home-product-item__like-icon-fill {
+    display: none;
 }
 .home-product-item__rating {
 
