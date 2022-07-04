@@ -1037,6 +1037,15 @@
 }
 
 i.home-product-item__like-icon-fill {
+    color: #F63D3D;
+    display: none;
+}
+
+.home-product-item__like--liked .home-product-item__like-icon-fill {
+    display: inline-block;    
+}
+
+.home-product-item__like--liked .home-product-item__like-icon-empty {
     display: none;
 }
 .home-product-item__rating {
