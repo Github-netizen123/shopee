@@ -534,7 +534,7 @@
 .header__cart-list-item {
     padding-left: 0;
     list-style: none;
-    height: 56vh; /*56% cua view port height*/
+    max-height: 56vh; /*56% cua view port height*/
     overflow-Y: auto; /*khi vuot qua gioi han se hien thanh scroll Y la chi hien thanh scroll doc*/
 }
 
